@@ -1,0 +1,24 @@
+ <!--  debut header-->
+
+<header class="container">
+
+  <div class="logo">
+    <img src="image/logo/Reservia@3x.png" alt="reservia"/>
+  </div>
+
+  <div class="menu">
+    <div>
+    <a href="#ancreh">Hébergements</a>
+  </div>
+
+  <div>
+    <a href="#ancrea">Activités</a>
+  </div>
+
+  <div>
+    <a href="#">S'inscrire</a>
+  </div>
+
+  </div>
+</header>
+    <!-- fin header-->
