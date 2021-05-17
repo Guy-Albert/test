@@ -1,0 +1,83 @@
+﻿/*======GLOBAL STYLE======*/
+
+html, body, header, section, footer, h1, h2, p, li, ul {
+font-family: 'Raleway', Arial, verdana, sans-serif ;
+}
+
+
+
+html,body
+{
+
+  width: 100%;
+  padding: 10px;
+  }
+
+header
+{
+  width: 100%;
+
+}
+
+h2
+{
+  width: 100%;
+  font-size: 16px;
+  background-color: #F2F2F2;
+
+}
+
+.third h2 i {
+  float: right;
+ 
+}
+
+
+footer
+{
+  background-color: #F2F2F2;
+  display: grid;
+  align-content: end;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+ }
+
+p 
+{
+  font-size: 12px;
+}
+
+section {
+  padding: 5px;
+}
+
+aside {
+  border-radius:15px 15px 15px 15px;
+  margin-bottom: 5px;
+
+  
+}
+
+
+
+aside img {
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+
+}
+
+
+* {
+  box-sizing: border-box;
+
+ }
+ 
+
+ /* ===== FIN GLOBAL STYLE ======*/
