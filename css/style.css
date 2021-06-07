@@ -429,3 +429,24 @@ input[type="button" i] {
   
    }
   
+/*===== ACTIVITES A MARSEILLE =====*/
+
+.card-tall 
+  {
+      
+      height:450px;
+      width: 100%;
+      border-radius:25px 25px 0px 0px;
+      background-color:rgba(221, 17, 17, 0.89);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      object-fit: cover;
+  }
+  
+    
+  .card-tall img
+  {
+    height:450px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
