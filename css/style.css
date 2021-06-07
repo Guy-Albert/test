@@ -493,3 +493,64 @@ input[type="button" i] {
     object-fit: cover;
   
   }
+
+ /* activité 1/3*/
+  
+  
+  .card-tall-1-3 
+  {
+      
+      height:160px;
+      width: 100%;
+      border-radius:25px 25px 0px 0px;
+      background-color:orange;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      object-fit: cover;
+      margin-top: 22px;
+  
+  
+  }
+  
+  .card-tall-1-3 img
+  {
+    height:160px;
+    width: 100%;
+    object-fit: cover;
+  
+  }
+    
+  .card-tall5-1-3
+  
+  {
+      
+      height:160px;
+      width: 100%;
+      border-radius:25px 25px 0px 0px;
+      background-color:orange;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      object-fit: cover;
+      
+  
+  }
+  
+  .card-tall5-1-3 img
+  {
+    height:160px;
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  
+  
+  
+  .card-text-container
+  {
+    text-align:center;
+    width: 100%;
+    border-radius:0px 0px 25px 25px;
+    bottom:0;
+    right:0;
+    padding: 5px;
+    background-color: white;
+  
+   }
