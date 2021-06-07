@@ -382,4 +382,50 @@ input[type="button" i] {
     padding-bottom: 10px;
   
    }
-
+/*====== CARD ASIDE =====*/
+.plus a {
+      text-align:left;
+      font-size: 16px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 0px;
+  }
+  
+  
+  .card
+  {
+    float: left;
+    width:100%;
+    border-radius:25px 25px 25px 25px;
+    background-color: pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  .card-aside
+  {
+    float: left;
+  
+    width:100%;
+    padding: 1px;
+    border-radius:25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 35px;
+    margin-top: 15px;
+  
+  }
+  
+  .card-container-aside
+  {
+    text-align:center;
+    padding:10px;
+    margin: 5px;
+     float:left;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  
+   }
+  
