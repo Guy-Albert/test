@@ -554,3 +554,163 @@ input[type="button" i] {
     background-color: white;
   
    }
+
+/*======  RESPONSIVES MOBILE ======*/
+
+ @media only screen  (min-width 375px)   /* SMARTPHONES*/{
+  /* For mobile phones: */
+
+html, body, header, section, footer, h1, h2, p, li, ul {
+font-family: 'Raleway', Arial, verdana, sans-serif ;
+}
+{
+  width: 100%;
+ 
+}
+
+/* header*/
+
+.logo {
+  width: 100%;
+  float: left
+}
+
+.logo img
+    {
+      width: 50%;
+    }
+
+    .menu > div
+    {
+    display: flex;
+    text-align: left;
+    padding: 5px 0;
+    border-top: 3px solid #0065FC;
+    display: flex;
+  }
+    
+    
+
+    
+    .menu a:hover {
+      border-top: solid #0065fc;
+      padding-top: 25px;
+    }
+
+    .Filtres {
+      width: 100%;
+      display: flex;
+      float: left;
+      
+    }
+
+  
+
+.filtre {
+    display: flex;
+    float: left;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+}
+
+.filtres {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: left;
+
+
+      }
+
+
+.Filtres {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Filtres {
+  display: flex;
+  
+}
+
+    
+    /* Section & Aside*/
+    }
+
+    .twothird {
+    float: left;
+    width: 100%;
+    padding: 1%;
+    background-color: #F2F2F2;
+    padding-top: 19px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 57px;
+    padding-left: 15px
+  }
+
+  .third {
+    float: left;
+    width: 100%;
+    padding: 1%;
+    background-color: teal
+  }
+  .card-aside {
+    float: left;
+    width: 100%;
+    padding: 1px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 35px;
+    margin-top: 15px;
+  }
+
+  .card-text-container {
+    text-align: center;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: white
+  }
+
+
+/*Activités Marseille*/
+
+.card-tall img {
+  height: 450px;
+  width: 100%;
+}
+.card-tall-2-3 img {
+  height: 225px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.quarter {
+
+  float: left;
+  width: 100%;
+  padding: 2px;
+  background-color: pink;
+  padding: 10px
+}
+
+  /*footer*/
+
+  footer { 
+    background-color: #F2F2F2;
+    display: grid;
+    align-content: end;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+}
